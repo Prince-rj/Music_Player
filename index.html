@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Beats- Beat it with Pure Beats</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.dribbble.com/users/3547568/screenshots/14395014/media/0b94c75b97182946d495f34c16eab987.jpg?compress=1&resize=1600x1200">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Source+Sans+Pro:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="unorderedList">
+            <li ><img class="imglogo" src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/media/0b94c75b97182946d495f34c16eab987.jpg?compress=1&resize=1600x1200" height="45px" width="50px" alt="" srcset=""></li><span id="mustitle">pureBeats</span>
+            <li class="list"><a href="/index.html"> Home</a></li>
+            <li class="list"><a href="/about.html"> About</a></li>
+            <li class="inputlist"><input type="text"placeholder="Search"></li>
+            <button id="btnsearch"><i class="fas fa-search"></i></button>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="con">
+            <h1 id="headingsong">My Playlist- Songs On Device</h1>
+            <div class="songs">
+                <div  id="0" class="songitem">
+                    <img class="image" src="covers/Friends.png" height="25px" alt="">
+                    <div id="songname">Friends-annie marie </div><span>3:51</span>
+                </div>
+                <div id="1" class="songitem">
+                    <img src="cover.jpg" class="image" height="25px" alt="">
+                    <div id="songname">Friends </div><span>4:05</span>
+                </div>
+                <div id="2" class="songitem">
+                    <img src="cover.jpg" height="25px" class="image" alt="">
+                    <div id="songname">Friends </div><span>4:05</span>
+                </div>
+                <div id="3" class="songitem">
+                    <img src="cover.jpg" height="25px" class="image" alt="">
+                    <div id="songname">Friends </div><span>4:05</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="name">
+            <span><li ><img class="imglogo" src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/media/0b94c75b97182946d495f34c16eab987.jpg?compress=1&resize=1600x1200" height="45px" width="50px" alt="" srcset=""></li><span id="mustitle">pureBeats</span></span>
+
+        </div>
+        <div id="progressspan">
+            <input class="progressbar" type="range" name="" value="0" min="0" max="10000" id="">
+
+        </div>
+        <div class="durationplayed">
+            <span id="played">0:000</span>
+            <span id="totalduration">0:00</span>
+        </div>
+        <div class="icons">
+            <i class="fas iconstoplay fa-step-backward"></i>
+            <span class="tobeadded">
+                 <i class="fas iconstoplay fa-play"></i>
+
+            </span>
+            <!-- <i class="fas iconstoplay playpausehide fa-pause"></i> -->
+            <i class="fas iconstoplay2 fa-step-forward"></i>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/f4c8dde635.js" crossorigin="anonymous"></script>
+</html>
